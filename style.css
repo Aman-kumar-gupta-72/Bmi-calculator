@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+h1{
+    color: rgb(255, 128, 0);
+}
+.container{
+    background-color: rgb(189, 242, 224);
+   margin: auto;
+   text-align: center;
+   height: 500px;
+   width: 500px;
+   box-shadow: 5px 5px 25px rgb(217, 189, 242);
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+button{
+    width: 100px;
+    margin: auto;
+    color: rgb(43, 43, 230);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#weight-guided{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
